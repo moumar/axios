@@ -18,6 +18,7 @@ export interface AxiosProxyConfig {
     username: string;
     password:string;
   }
+  protocol?: string;
 }
 
 export interface AxiosRequestConfig {
